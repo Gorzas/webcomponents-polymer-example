@@ -1,0 +1,25 @@
+{
+  "name": "webcomponents-polymer-example",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Gorzas/webcomponents-polymer-example",
+  "authors": [
+    "José David <joseda87@gmail.com>"
+  ],
+  "description": "WebComponents example with Polymer",
+  "keywords": [
+    "Polymer",
+    "WebComponents"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.2",
+    "bootstrap": "~3.2.0"
+  }
+}

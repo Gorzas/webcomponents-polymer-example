@@ -1,0 +1,24 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="range-example" attributes="min max value">
+  <template>
+    <link rel="stylesheet" type="text/css" href="range-example.css">
+    <h2>Component Scope</h2>
+    <div class="col-md-6">
+      <h3>Value</h3>
+      {{input type="text" id="text" value=value}}
+      <input type="text" value="{{value}}">
+    </div>
+    <div class="col-md-6">
+      <h3>Range bar</h3>
+      <input type="range" min="{{min}}" max="{{max}}" value="{{value}}">
+    </div>
+  </template>
+  <script>
+    Polymer('range-example', {
+      ready: function () {
+        this.value = Math.floor((this.max - this.min) / 2);
+      }
+    });
+  </script>
+</polymer-element>

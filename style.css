@@ -1,0 +1,9 @@
+.index {
+  display: flex;
+}
+
+.example {
+  background: #d3d3d3;
+  border: 1px solid #adadad;
+  padding-bottom: 20px;
+}
